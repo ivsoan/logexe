@@ -31,8 +31,7 @@ A Python module to simplify logging setup and provide a decorator for easy funct
 ### 1. Initialize Logger
 
 ```python
-import logging
-from logging_utils import logging_init
+from logexecution import logging_init
 
 logger = logging_init()
 logger.info("Logger is ready!")
@@ -41,8 +40,7 @@ logger.info("Logger is ready!")
 ### 2. Log Function Execution
 
 ```python
-from logging_utils import log_execution, logging_init
-import logging
+from logexecution import log_execution, logging_init
 
 # Initialize a logger first
 my_logger = logging_init()
